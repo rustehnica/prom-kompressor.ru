@@ -1,0 +1,211 @@
+#subHeader6 #logo{
+	max-height: 93px;
+    height: 93px;
+}
+.product{
+	height: 420px !important;
+}
+.product .tabloid {
+	height: 419px !important;
+}
+@media (max-width: 600px){
+	.product{
+		height: auto !important;
+	}
+	.product .tabloid {
+		height: auto !important;
+	}	
+	.product .name{
+		height:auto !important;
+	}
+	.propContainer{
+		font-size:12px;
+	}
+	.attention{
+		font-weight:bold;
+		font-size:1rem;
+		color:#cc0000;
+		margin-top:0;
+		padding-right: 1rem;
+	}	
+}
+.attention{
+	font-weight:bold;
+	font-size:1.1rem;
+	color:#cc0000;
+	margin-top:1rem;
+}	
+@media (min-width: 600px) and (max-width: 700px){
+	.product{
+		height: 250px !important;
+	}
+	.product .tabloid {
+		height: 249px !important;
+	}	
+}
+.product .tabloid:hover {
+	height: auto !important;
+}
+.product .tabloid .prop {
+	color: #aaa;
+	font-size: .75rem;
+	min-height: 5rem;
+	display: flex;
+	line-height: .75rem;
+}
+.product .tabloid .prop span{
+	clear:both;
+	display:block;
+}
+.product .tabloid .prop span:not(:last-child){
+	margin-bottom:5px;
+}
+.product .tabloid .prop div{
+	margin: auto 0;
+}
+#nextSection li a{
+	font-size: 15px !important;
+}
+#equipment{
+	padding: 0 24px;
+    overflow: auto;
+}
+#equipment .heading{
+	border-top: 1px solid #efefef;
+    font-family: 'robotobold';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 36px 0px 24px 0;
+    font-weight: 800;
+    font-size: 20px;
+    display: block;
+}
+.print{
+	display: inline-block;
+    width: 220px;
+    height: 45px;
+    margin-bottom: 12px;
+    line-height: 45px;
+    text-align: center;
+    background: #fff;
+    border-radius: 2px;
+	text-decoration:none;
+	font-size: 15px;
+    color: #717171;
+}
+body.panels_white #left .sideBlock .heading{
+	background-color:#3498db !important;
+	color: #fff !important;
+}
+.catalog-section-list-pictures .catalog-section-list-item{
+	width:10%;
+	padding: 0px 10px;
+	height: 150px;
+	line-height: 125px;
+}
+.catalog-section-list-pictures .catalog-section-list-link{
+	line-height: 20px;
+	height: 38px;
+}
+.catalog-section-list-pictures .catalog-section-list-picture{
+	margin-bottom: 0px;
+}
+#left .heading{
+	font-weight:600 !important;
+}
+.headerLineMenu2 #subMenu a{
+	font-size: 16px;
+}
+.product .name, #newsContainer .item .title a{
+	font-size: 16px !important;
+	font-weight: bold;
+}
+
+.product .product:hover .name{
+	font-weight:600 !important;
+}
+#footerLine .item a,#footerLine .item .cart.active{
+	color:#fff;
+}
+#footerLine .item .callback{
+	font-size: 16px;
+	font-weight: bold;
+}
+#leftMenu li .menuLink{
+	padding-left:24px;
+}
+.product:hover .tabloid{
+	border: 1px solid #3498db;
+}
+.product .addCart, #newsContainer .column .item .more{
+	background: #2b2b2b;
+	font-weight: bold;
+}
+.product .addCart:hover, .addCart.requestPrice:hover, #newsContainer .column .item .more:hover{
+	background: #3498db !important;
+	font-weight: bold;
+	opacity: 1 !important;
+}
+#newsContainer .column .item .more{
+	font-size: 16px;
+	text-decoration: none;
+	border-radius: 4px;
+	padding:10px;
+}
+.propContainer{
+	margin-bottom: 12px;
+	
+}
+#homeCatalog .caption a{
+	font-weight: bold;
+}
+#newsBlock .newsTitle{
+	font-weight: bold;
+}
+#newsContainer .item .wrap:hover{
+	border: 1px solid #3498db;
+}
+#newsContainer .item .description{
+	height: 100px;
+}
+#subHeader7 .firstPhones .heading, #subHeader7 .secondPhones .heading{
+	font-size:20px;
+}
+@media (max-width: 700px){
+	#subHeader7 .firstPhones {
+		margin-right: 0;
+	}
+	#subHeader7 .subTableColumn:nth-child(3) {
+		width: 200px;
+	}
+}
+@media (min-width: 1340px){
+	#subHeader7 .subTableColumn:nth-child(3) {
+		width: 660px;
+	}
+	.subTableColumn.phoneheader{justify-content: center;}
+	.subTableColumn.phoneheader div{margin-right:2rem;}
+	.changePropertiesNoGroup{
+		margin-top:0;
+	}
+	.propContainer{
+		min-height: 70px;
+	}
+}
+@media (max-width: 1340px){
+	.subTableColumn.phoneheader{justify-content: center;flex-wrap:wrap;}
+	.subTableColumn.phoneheader div{margin-left:1rem;line-height:2rem;}
+}
+.headerLine4Phone{padding: 1rem 0 0 0;}
+.subTableColumn.phoneheader{text-align:center;font-size:1.2rem;font-weight:bold;display: flex !important;}
+.subTableColumn.phoneheader div a{text-decoration:none;color:inherit;}
+@media (max-width: 400px){
+	.productColImage {
+		width: 40% !important;
+	}
+	.catalog-section-list-pictures{
+		display:none;
+	}
+}
+.changeName{font-weight: 600;}
+#left .menuRolled + .collapsed{display:block !important;}

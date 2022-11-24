@@ -1,0 +1,1 @@
+<p>Copyright 2003-<?=date("Y")?> ©</p>
