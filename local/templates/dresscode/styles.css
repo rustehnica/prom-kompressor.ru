@@ -3,10 +3,10 @@
     height: 93px;
 }
 .product{
-	height: 420px !important;
+	height: 430px !important;
 }
 .product .tabloid {
-	height: 419px !important;
+	height: 429px !important;
 }
 @media (max-width: 600px){
 	.product{
