@@ -191,6 +191,9 @@ body.panels_white #left .sideBlock .heading{
 	.propContainer{
 		min-height: 70px;
 	}
+	#catalog-section-banners {
+		margin: 0 0 !important;
+	}
 }
 @media (max-width: 1340px){
 	.subTableColumn.phoneheader{justify-content: center;flex-wrap:wrap;}
